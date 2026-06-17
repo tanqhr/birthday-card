@@ -10,8 +10,45 @@
 <meta name="description"
 content="Безплатна онлайн картичка за рожден ден с конфети, музика и пожелания.">
 
-<meta name="keywords"
-content="рожден ден, честит рожден ден, картичка, поздрав, пожелание">
+<!-- <meta name="description"
+      content="Красива анимирана картичка за рожден ден с цветя и пожелания."> -->
+
+<meta property="og:locale" content="bg_BG">
+
+<link rel="canonical" href="https://tanqhr.github.io/birthday-card/">
+
+<meta property="og:title"
+      content="Честит Рожден Ден!">
+
+<meta property="og:description"
+      content="Специална картичка за рожден ден с красив цветен дизайн.">
+
+<meta property="og:image"
+      content="https://tanqhr.github.io/birthday-card/birthday-card-preview.jpg">
+
+<meta property="og:url"
+      content="https://tanqhr.github.io/birthday-card/">
+
+<meta property="og:type"
+      content="website">
+
+<meta name="twitter:card"
+      content="summary_large_image">
+
+<meta name="twitter:image"
+      content="https://tanqhr.github.io/birthday-card/birthday-card-preview.jpg">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Честит Рожден Ден - Онлайн Картичка",
+  "description": "Безплатна онлайн картичка за рожден ден с пожелания и конфети.",
+  "image": "https://tanqhr.github.io/birthday-card/birthday-card-preview.jpg",
+  "url": "https://tanqhr.github.io/birthday-card/"
+}
+</script>
 
 <style>
 *{
@@ -48,7 +85,7 @@ body{
     background:linear-gradient(135deg,#ff6b6b,#ffb347,#ffd93d);
     font-family:Arial,sans-serif;
     overflow:hidden;
-      animation:bg 6s infinite alternate;
+    animation:bg 6s infinite alternate;
 
         background:
         linear-gradient(
@@ -135,6 +172,9 @@ button:hover{
     to{opacity:1; transform:translateY(0);}
 }
 
+
+
+
 @media (max-width: 600px){
 
     .container{
@@ -178,8 +218,8 @@ button:hover{
     <button id="surpriseBtn" onclick="showMessage()">
         🎁 Изненада
     </button>
-<!-- 
-    <button onclick="shareLink()">
+
+    <!-- <button onclick="shareLink()">
         🔗 Сподели
     </button> -->
 
@@ -189,7 +229,13 @@ button:hover{
     </div>
 
 </div>
-
+<img
+  src="birthday-card-preview.jpg"
+ alt="честит рожден ден картичка, анимирана birthday card с конфети и цветя"
+  width="1200"
+  height="630"
+ style="width:1px;height:1px;opacity:0;position:absolute;"> 
+ 
 <script>
 
 // 🎉 показване на пожелание + конфети
